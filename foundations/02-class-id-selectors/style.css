@@ -1,17 +1,22 @@
-p {
+.p,
+.plat {
     background-color: pink ;
+    font-style: verdana;
+}
+
+.plat {
+    font-size: 24px;
+    font-style: DejaVu Sans;
 }
 
 #lo {
-font-size: 50px;
+font-size: 36px;
 color: blue;
 }
 
-plat {
-font-size: 25px;
-}
-g {
-    font-size: larger;
-    background-color: green;
-    font-weight: 400
+#g {
+    font-size: 24px;
+    background-color: lightgreen;
+    font-weight: 400;
+    font-style: sans-serif;
 }
