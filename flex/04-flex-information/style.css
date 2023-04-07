@@ -5,6 +5,7 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: inline-block;
 }
 
 .title {
@@ -29,8 +30,10 @@ img {
 
 .one {
   display:flex;
-  flex-flow:column nowrap;
-  gap: 52px;
+  flex-flow:column wrap;
+  width:200px;
+  text-align: center;
+  align-items: center;
 }
 
 .main {
