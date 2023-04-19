@@ -21,7 +21,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .icon {
@@ -53,6 +53,7 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin: 10px;
 }
 
 button.continue {
@@ -67,18 +68,32 @@ button.cancel {
   color: royalblue;
 }
 
-.stuff {
-
+.stuff,
+.mark, 
+.x {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-,mark {
+.mark,
+.x {
+  margin: 15px
+}
 
+.mark {
+  margin-right: 5px;
 }
 
 .x {
-
+  margin-left: 5px;
 }
 
 .header {
   font-weight: 600;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.text {
+  margin: 10px;
 }
